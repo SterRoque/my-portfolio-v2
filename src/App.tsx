@@ -1,3 +1,12 @@
+import { HeroSection } from './components/hero-section';
+import { Layout } from './components/layout';
+
 export default function App() {
-  return <div className="text-red-500">Hello World</div>;
+   return (
+      <Layout>
+         <main className='h-screen w-screen px-44'>
+            <HeroSection />
+         </main>
+      </Layout>
+   );
 }
