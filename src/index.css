@@ -1,1 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+body {
+   background-color: #0d0d0d;
+   font-family: 'Poppins', sans-serif;
+}
+
+@theme {
+   --color-primary: #ff69b4;
+   --color-card: #1a1a1a;
+}
